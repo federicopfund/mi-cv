@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../PoloTecn/assets/styless.css">
+    <title>Mi CV</title>
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <header class="count-header">
+        <nav class="navegacion" id="nav">
+            <ul class="menu">
+                <li><a href=#nav>Inicio</a></li>
+                <li><a href=#soy>Quien soy</a></li>
+                <li><a href=#T1>Servicios</a></li> 
+                <li><a href=#contacto>Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h1>Nombre y Apellido</h1>
+    </section>
+    <div class="foto">
+        <img src="../PoloTecn/formularios/assets/fondo 2.png">
+    </div>
+    <div class="animated-text">
+        <div class="line">Diseño Web</div>
+        <div class="line">PHP </div>
+        <div class="line">HTML</div>
+        <div class="line">CSS</div>
+    </div><br><br><br><br><br><br><br>
+    <div class="soy">
+        <p><h2 id="soy">UN POCO DE MI </h2></p><br><br><br>
+        <p>Hola Soy desarrollador Front End. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt iste distinctio vel modi fac
+        ilis,
+        minima esse voluptatibus quo at facere sed. Ad suscipit vero perferendis totam quidem similique dignissimos voluptas.</p><br>
+        
+        
+    </div><br><button><a href=#nav>Inicio</a></button><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div class="servicios">
+        <div class="T1"><h3 id="T1">ALGO DE MIS TRABAJOS</h3> <br><br>
+            <img src="tu imagen">
+            <img src="tu imagen">
+            <img src="tu imagen">
+        </div>
+    </div>
+    <button><a href=#nav>Inicio</a></button>
+    <div class="wrapper">
+        <div class="title" id="contacto">
+        </div>
+            <section class="form_wrap">
+                <section class="cantact_info">
+                    <section class="info_title">
+                        <span class="fa fa-user-circle"></span>
+                        <h3>INFORMACION<br>DE CONTACTO</h3>
+                    </section>
+                    <section class="info_items">
+                        <p><span class="fa fa-envelope"></span> federicopfund@gmail.com</p>
+                        <p><span class="fa fa-mobile"></span> +542996853852</p>
+                
+                    </section>
+                </section>
+                <form action="enviar.php" method="post" class="form_contact">
+                    <h2>Contactarme</h2>
+                    <div class="user_info">
+                        <label for="names">Nombres *</label>
+                        <input type="text" id="names" name="nombre" required>
+                        <label for="phone">Telefono / Celular</label>
+                        <input type="text" id="phone" name="telefono">
+                        <label for="email">Correo electronico *</label>
+                        <input type="text" id="email" name="correo" required>
+                        <label for="mensaje">Mensaje *</label>
+                        <textarea id="mensaje" name="mensaje" required></textarea>
+                        <input type="submit" value="Enviar Mensaje" id="btnSend">
+                    </div>
+                </form>
+            </section>
+        </div>
+    </div>    
+</body>
+</html>

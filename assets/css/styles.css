@@ -1,0 +1,280 @@
+*{
+    margin: 0%;
+    padding: 0%;
+   }
+   h1{
+    color: whitesmoke;
+    margin-left: 5%;
+    font-size: 50px;
+    margin-bottom: 50px;
+   }
+   body{
+    background-color: #00a06375;
+   }
+   .navegacion{
+    width: 70%;
+    max-width: 1000px;
+    margin: 5% auto;
+    background: rgb(0 0 0);
+    border-radius: 20px;
+   }
+   .navegacion ul{
+    list-style: none;
+   }
+   .menu > li{
+    position: relative;
+    display: inline-block;
+   }
+   .menu > li > a{
+   display: block;
+   padding: 15px 20px;
+   color: #ffffff;
+   font-family: Impact, sans-serif;
+   text-decoration: none;
+   display: flex;
+   }
+   .menu li a:hover{
+    color: rgb(43, 101, 139); 
+    transition: all .3s;}
+   .foto{
+    width: 550px;
+    margin-left: 10%;
+   }
+   /*animacion*/
+   .animated-text{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 76%;
+    left: 61%;
+    transform: translate(-21%,-60%);
+    background: rgb(10 1 1);
+       
+    }
+    .line{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    line-height: 60px;
+    }
+    .line:first-child{
+    animation: anim 12s infinite;
+    }
+    
+    @keyframes anim {
+    0%{
+    margin-top: 0;
+    }
+    16%{
+    margin-top: -60px;
+    }
+    33%{
+    margin-top: -120px; }
+    50%{
+    margin-top: -180px;
+    }
+    66%{
+    margin-top: -120px;
+    }
+    82%{
+    margin-top: -60px;
+    }
+    100%{
+    margin-top: 0;
+    }
+    }
+    .soy{
+    background-color: transparent;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10%;
+    border-radius: 20px;
+    }
+    body > div.soy > h2{
+    text-align: center;
+    color: whitesmoke;
+    }
+    p{
+    font-size: 20px;
+    color:rgb(216, 210, 210);
+    }
+    body > button{
+    margin-left: 45%;
+    background-color: transparent;
+    }
+    body > button > a{
+    text-decoration: none;
+    padding: 30px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #500505;
+    font-size: 20px;
+    }
+    body > div.servicios > button{
+    margin-top: 50px;
+    margin-left: 45%;
+    background-color: transparent;
+    margin-bottom: 300px;
+    }
+    body > div.servicios > button a{
+    text-decoration: none;
+    padding: 30px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: wheat;
+    font-size: 20px;
+    }
+    #T1{
+    font-size: 30px;
+    margin-left: 40%;
+    color: bisque;
+    }
+    body > div.servicios > div > img{
+    margin-top: 50px;
+    margin-left: 10%;
+    float: left;
+    width: 480px;
+    }
+    body > div.servicios > div > img:nth-child(5){
+    margin-right: 7%;
+    float: right;
+    width: 480px;
+    }
+    body > div.servicios > div > img:nth-child(6){
+    margin-top: 90px;
+    margin-right:7%;
+    float: right; width: 480px;
+    
+    }
+    .contactBody{
+    background-color: rgb(50 85 134);
+    background-size: cover;
+    background-attachment: fixed;
+    height:700px;
+   }
+   .title{
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 42px;
+    color: rgb(252, 252, 252);
+    }
+    #title-Tag-Line{
+    font-size: 20px;
+    }
+   /* This will center the form */
+    .wrapper {
+    width: 80%;
+    height: 50%;
+    margin: 5% auto 0 auto;
+    }
+   /* form animation starts */
+    .form {
+    background: #EBEBEB;
+    text-align: center;
+    box-shadow: 0px 0px 20px 5px #AAA;
+    border-radius: 10px; 
+    width: 45%;
+    height: 400px;
+    margin: 30px auto 0 auto; padding: 10px 10px; 
+    animation: bounce 1.5s infinite;
+    }
+   .name {
+    background-color: #ececec;
+    border-bottom: 5px solid #ffffff;
+    color: white;
+    width:300px;
+    }
+    ::-webkit-input-placeholder{
+    color: white;
+    font-size: 20px;
+    }
+    .name:hover{
+    background-color: #f8f8f8;
+    border-bottom: 5px solid #ffffff;
+    height:30px;
+    width:400px;
+    }
+    .email {
+    background-color: #6a00ff81; 
+    border-bottom: 5px solid #7f26fcc2;
+    height:50px;
+    width:300px;
+    
+    }
+    .email:hover{
+    background-color: #68dada; 
+    border-bottom: 5px solid #2e91caa4;
+    height:30px;
+    width:380px;
+    
+    }
+    .message { 
+    background-color: rgb(230, 108, 15); border-bottom: 5px solid rgb(195, 35, 17);
+    overflow: hidden;
+    height: 100px; 
+    width:300px;
+    }
+    .message:hover{
+    background-color: #2DD7BB;
+    border-bottom: 5px solid #2BB09A;
+    height: 100px;
+    width:370px;
+    }
+    .submit{
+    border-radius:5px;
+    padding:10px;
+    background-color: #2DD7BB; 
+    border: none;
+    border-bottom: 5px solid #46e2aee3;
+    transform: translateY(-120px);
+    }
+    .submit:hover{
+    border-bottom: 5px solid #4dd887c5; 
+    box-shadow: 15px 15px 15px 5px rgba(78, 72, 77, 0.219);
+    }
+    .entry{
+    display: block;
+    margin: 30px auto;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    transition: all 0.5s ease 0s;
+    box-shadow: 0px 0px 25px 2px #AAA; 
+    } /* Shadow to make it look like form is floating */
+    .shadow{
+    box-shadow: 0px 0px 60px 5px #AAA;
+    opacity: 0.5;
+    border-radius: 100px;
+    width: 50%;
+    margin: 50px auto 0 auto;
+    padding: 0 20px; 
+    animation: shadow 1.5s infinite;
+    }
+   .submit{
+    border-radius:5px;
+    padding:10px;
+    width:150px;
+    color: white;
+    background-color: #38b8bd; 
+    border: none;
+    border-bottom: 5px solid #dfd335;
+    margin-top: 150px;
+    }
+    body > div.servicios > div.wrapper{
+    margin-bottom: 200px;
+    }
+    @keyframes bounce{
+    0%{
+    
+    }
+    50%{
+    transform: translate(0, 8px);
+    }
+    }
+    @keyframes shadow{
+    0%{
+    
+    }
+    50%{ opacity: 0.8;
+    width: 50%;
+    }
+}
