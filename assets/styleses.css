@@ -1,0 +1,140 @@
+li {
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    line-height: 35px;
+}
+.count-header{
+    background-image: url(../assets/Sin\ título.png);
+    background-position: bottom;
+    background-size: cover;
+    min-height: 40vh;
+    
+}
+.container {
+    padding: 38px 100px;
+}
+.d-flex-row {
+    max-width: 1000px;
+    /* margin: 1% auto; */
+    background: rgb(88 78 33 / 21%);
+    border-radius: 20px;
+    /* display: -webkit-box; */
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-evenly;
+    top: auto;
+}
+
+
+h1:hover {
+    color: greenyellow;
+}
+
+.ul-nav li {
+    list-style: none;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+}
+ul a {
+    text-decoration: none;
+}
+ul li {
+    padding-left: 40px;
+    padding-right: 50px;
+}
+.ul-nav li {
+    list-style: none;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  
+.animated-text{
+    color: rgb(255 255 255);
+    position: initial;
+    top: 94%;
+    left: 61%;
+    transform: translate(37,-62%);
+    background: rgb(0 2 0 / 69%);
+} 
+.soy{
+    background-color: transparent;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10%;
+    border-radius: 20px;
+    
+}
+body > div.soy > h2{
+    text-align: center;
+    color: rgb(114, 40, 40);
+}
+.foto{
+    width: auto;
+    margin-left: 115px;
+}
+.content-box{box-sizing: content-box;}
+#contacto {
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: transparent;
+    margin-left: 10%;
+    margin-right: 10%;
+    /* padding-bottom: 10%; */
+    border-radius: 200px;}
+.wrapper{padding: 100px 38px;}
+p{
+    font-size: 20px;
+    color:rgb(105, 11, 11);
+    } body > button{
+    margin-left: 45%;
+    background-color: transparent;
+}
+body > button > a{
+    text-decoration: none;
+    padding: 30px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(148, 112, 46);
+    font-size: 20px;
+   
+}
+body > div.servicios > button{
+    margin-top: 50px;
+    margin-left: 45%;
+    background-color: transparent;
+    margin-bottom: 300px;
+}
+body > div.servicios > button a{
+    text-decoration: none;
+    padding: 30px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(148, 112, 46);
+    font-size: 20px;
+}
+
+body > div.foto > img{
+    width: 50%;
+}
+.form_wrap{
+    width: 1050px;
+    height: 530px;
+    margin: 50px auto;
+    display: flex;
+    
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+ /* Informacion de Contacto*/
+

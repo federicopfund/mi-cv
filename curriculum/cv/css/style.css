@@ -1,0 +1,555 @@
+/*
+Velo - Developer Portoflio Template
+Author: Â© Ciuca Cristian (Criatix)
+Author URL: https://www.ciucacristi.tk/
+Version: 2.0
+Framework: Bootstrap v4.5
+Demo: https://ciucacristi.tk/velo/
+*/
+
+.button-documentation {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  font-size: 1.2rem;
+  margin: 2rem;
+  border-radius: 5rem;
+  padding: 0.8rem 1.2rem;
+  box-shadow: 0px 5px 15px -5px #303030;
+}
+
+body, html {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  background-color: #131313;
+  color: #fff;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+/* Links */
+a:link {
+  text-decoration: none;
+}
+
+a {
+  color: #4990fb;
+}
+
+a:hover {
+  color: #D04B38 !important;
+  font-size: 25px !important
+  
+}
+
+*:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+/* Navbar */
+
+.navbar-dark { /* Bootstrap Navbar Properties */
+  padding-left: 10rem;
+  padding-right: 5rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  height: 8rem;
+  transition: 500ms ease;
+  background: transparent !important;
+  transition: 0.5s;
+}
+
+.navbar-brand { /* Navbar Title (Logo) */
+  font-size: 3rem;
+  font-family: "Syncopate", sans-serif;
+  color: #fff;
+  text-transform: none;
+  transition: 0.5s;
+}
+
+.navbar-dark .nav-link { /* Links from Navbar */
+  color: #fff !important;
+  margin-right: 2.5rem;
+  font-size: 1rem;
+}
+
+.navbar-dark .active { /* Active link color in Navbar */
+  color: #D04B38 !important;
+}
+
+.navbar-dark .nav-link:hover { /* Links color hover in Navbar */
+  color: #D04B38 !important;
+}
+
+.navbar-dark.shrink { /* ".shrink" class added to Navbar on scroll */
+  height: 6rem;
+  background-color: #1f1f1f !important;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2), 0px 5px 20px 0px rgba(0, 0, 0, 0.05);
+}
+
+.navbar-dark.shrink .nav-link { /* Links color on scrolled Navbar */
+  color: #fff !important;
+}
+
+.navbar-dark.shrink .active { /* Active link color in Navbar scrolled */
+  color: #D04B38 !important;
+}
+
+.navbar-dark.shrink .nav-link:hover { /* Hover links color on Navbar scrolled */
+  color: #D04B38 !important;
+}
+
+.navbar-dark.shrink .navbar-brand { /* Logo from scrolled Navbar */
+  font-size: 2.5rem;
+  transition: 0.5s;
+}
+
+.collapse { /* Navigation Menu on Small Screen */
+  transition: 0.2s;
+  padding: 2rem;
+}
+
+/* Responsive Media Queries */
+@media screen and (max-width: 991px) {
+  .collapse {
+    background-color: #000;
+  }
+}
+/* Responsive Media Queries */
+@media screen and (max-width: 1050px) {
+  .navbar-dark {
+    padding-left: 2rem;
+  }
+}
+/* Responsive Media Queries */
+@media screen and (max-width: 364px) {
+  .navbar-brand {
+    font-size: 1.4rem !important;
+  }
+}
+/* End Navbar */
+
+/* HOME Section */
+
+#home { /* Home Main Container */
+  background-color: #121212;
+  height: 120vh;
+  width: 100%;
+}
+
+.home-left { /* Left Container from Home */
+  height: 100vh;
+}
+
+.left-content { /* Content container from Home Left Container */
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  text-align: center;
+  float: right;
+}
+
+.main-name { /* Main Name */
+  font-size: 2rem;
+  font-family: 'Syncopate';
+  font-weight: 500;
+}
+
+.occupation { /* Occupation over Name (TextTyping) */
+  font-family: "Poppins SemiBold", sans-serif;
+  font-size: 1.1rem;
+  margin-top: 1.5rem;
+  margin-bottom: 4rem;
+}
+
+.home-right { /* Right Container from Home */
+  background-image: url(../images/profile.jpg); /* REPLACE WITH YOUR IMAGE LINK */
+  
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 57%;
+    border-radius: 31rem;
+}
+
+.social-links .fab {
+  color: #fff;
+  margin-right: 2rem;
+  margin-top: 4rem;
+}
+
+.social-links .fab:hover {
+  color: #f03e3e;
+}
+
+/* Responsive Media Queries */
+@media screen and (max-width: 991px) {
+  .left-content {
+    float: none;
+  }
+
+  .home-right {
+    display: none;
+  }
+
+  .main-name {
+    font-size: 5rem;
+  }
+}
+/* End HOME Section */
+
+/* Buttons */
+.button-white { /* Button White Custom */
+  font-size: 0.8rem;
+  border-radius: 2rem;
+  font-weight: 600;
+  font-family: "Poppins Medium", sans-serif;
+  padding: 0.8rem 2.2rem 0.8rem 2.2rem;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2), 0px 5px 20px 0px rgba(0, 0, 0, 0.05);
+}
+
+.btn-link { /* Button Text Custom */
+  font-size: 0.8rem;
+  font-weight: 600;
+  font-family: "Poppins Medium", sans-serif;
+  color: #ccc;
+  text-decoration: none !important;
+}
+/* End Buttons */
+
+/* About Section */
+
+.about-img { /* About Image */
+  width: 85%;
+  float: right;
+  margin-right: 2rem;
+  margin-top: -7rem;
+  border-radius: 4rem;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2), 0px 5px 20px 0px rgba(0, 0, 0, 0.4);
+}
+
+.about-left { /* About Left Container */
+  padding: 2rem;
+}
+
+.about-right { /* About Right Container */
+  padding: 2rem;
+}
+
+.sections-title { /* Sections Main Title */
+  font-size: 4rem;
+  font-family: "Poppins SemiBold", sans-serif;
+}
+
+.description { /* About Me Description */
+  font-size: 0.9rem;
+  line-height: 1.7rem;
+}
+
+.hire-title { /* Hire Me Title */
+  font-size: 1.4rem;
+  font-family: "Poppins SemiBold", sans-serif;
+  margin-top: 8rem;
+  margin-bottom: 1rem;
+}
+
+.hire { /* Hire me links */
+  color: #777777;
+}
+
+/* End About Section */
+
+/* Services Section */
+
+.services-left-content { /* Services Left Content Container */
+  float: right;
+  padding-left: 5rem !important;
+  padding-right: 2rem;
+}
+
+.services-card { /* Services Card */
+  padding: 2.2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  border-radius: 0.5rem;
+  color: #fff;
+}
+
+.card-style1 { /* Card Style Background 1 */
+  background: linear-gradient(320deg, #1c1c1f, #72757a);
+}
+
+.card-style2 { /* Card Style Background 2 */
+  background: linear-gradient(320deg, #1c1c1f, #d0ae9a);
+}
+
+.card-title { /* Card Title */
+  font-size: 1.2rem;
+  font-family: "Poppins SemiBold", sans-serif;
+}
+
+.card-subtitle { /* Experience Subtitle */
+  font-size: 0.8rem;
+  font-family: "Poppins", sans-serif;
+  color: #ccc;
+  margin-top: -0.5rem;
+  margin-bottom: 1rem;
+}
+
+.card-description { /* Card Description */
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+}
+
+.skill { /* Skill Level */
+  float: right !important;
+  color: #fff;
+  padding: 9px;
+  background-color: #5d5d5d;
+}
+
+.skills { /* Skills */
+  font-size: 0.8rem;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 2rem;
+}
+
+/* End Services Section */
+
+/* Portfolio Section */
+
+.portfolio-nav .active { /* Photo filter button active class */
+  color: #D04B38 !important;
+  background-color: #222222;
+  border-radius: 2rem;
+}
+
+
+.portfolio-nav a { /* Image Links */
+  color: #fff;
+}
+
+.portfolio-nav .nav-item { /* Image Links */
+  border-radius: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 0.9rem;
+}
+
+.portfolio-nav { /* Portfolio filter buttons container */
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  margin-left: 2rem;
+}
+
+.portfolio-nav a { /* Links */
+  color: #fff;
+}
+
+.modal-full { /* Modal Bootstrap */
+  padding: 0 !important;
+}
+
+.modal-full .modal-dialog { /* Modal Bootstrap */
+  max-width: 100% !important;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.modal-content { /* Modal Window Content */
+  background-color: #131313 !important;
+  color: #fff;
+}
+
+.modal-header { /* Modal Header */
+  border-bottom: 0 none;
+  padding: 2rem;
+}
+
+.close { /* Modal Close Button */
+  color: #fff;
+}
+
+.modal img { /* Modal Images */
+  width: 100%;
+  border-radius: 0rem;
+  margin-bottom: 9rem;
+  margin-top: -8rem;
+  margin-left: -2rem;
+}
+
+.modal-projectType { /* Modal Project type title */
+  font-size: 0.9rem;
+  font-family: "Poppins SemiBold", sans-serif;
+}
+
+.modal-title { /* Modal Main Title */
+  font-size: 2rem;
+  font-family: "Poppins SemiBold", sans-serif;
+}
+
+.modal-description { /* Modal Description */
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  line-height: 1.7rem;
+  padding-right: 10rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.features-title { /* Features Title */
+  margin-top: 2.5rem;
+  font-family: "Poppins SemiBold", sans-serif;
+  font-size: 1.2rem;
+}
+
+.feature { /* Feature */
+  font-size: 0.8rem;
+  color: #636161;
+  margin-top: -0.5rem;
+}
+
+.feature-icons { /* Modal Icons */
+  margin-top: 4rem;
+  font-size: 1.5rem;
+  word-spacing: 1rem;
+}
+
+.gallery { /* Responsive Gallery */
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  -webkit-column-width: 33%;
+  -moz-column-width: 33%;
+  column-width: 33%;
+}
+
+.gallery img { /* Responsive Gallery Images */
+  border-radius: 0.2rem;
+}
+
+/* Responsive Gallery */
+@media screen and (max-width: 750px) {
+  .gallery {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    -webkit-column-width: 100%;
+    -moz-column-width: 100%;
+    column-width: 100%;
+  }
+}
+
+.img-container { /* Image Container */
+  position: relative;
+}
+
+.portfolio-img { /* Portfolio Image */
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay { /* Image Hover Content */
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.3s ease;
+  background-color: #000;
+}
+
+.img-container:hover .overlay { /* Image Hover */
+  opacity: 0.7;
+}
+
+.img-hover-title { /* Title Image Hover */
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  margin-left: 3rem;
+  margin-bottom: 5rem;
+  font-size: 1.3rem;
+  font-family: "Poppins SemiBold", sans-serif;
+}
+
+.img-hover-category { /* Image Hover Project Category */
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  margin-left: 3rem;
+  margin-bottom: 8rem;
+  font-size: 0.9rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.overlay .fas { /* Icons Image Hover */
+  margin-right: 2rem;
+  margin-top: 2rem;
+  font-size: 2rem;
+  float: right;
+  color: #fff;
+}
+/* End Portfolio Section */
+
+/* Contact Section */
+
+#contact { /* Contact Container */
+  padding-top: 8rem !important;
+  text-align: center;
+}
+
+input, textarea { /* Inputs */
+  padding: 1.5rem !important;
+  background-color: #1a1919 !important;
+  border: 1px solid #383838 !important;
+  margin: 0 auto;
+  font-size: 0.9rem;
+  font-family: "Poppins", sans-serif;
+  display: block;
+  margin-top: 3rem;
+}
+
+
+.centered { /* Align items on center */
+  margin: 0 auto;
+  display: block;
+}
+
+.findme-title {
+  font-weight: 900;
+  font-size: 2.5rem;
+}
+
+.findme-links {
+  margin-top: 3rem;
+  word-spacing: 2.5rem;
+  font-size: 0.9rem;
+  display: inline-block;
+  margin-right: 2rem;
+}
+
+#contact a {
+  color: #fff;
+}
+/* End Contact Section */
+
+.footer {
+  background-color: #0f0f0f;
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  margin-top: 6rem;
+}
