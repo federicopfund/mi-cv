@@ -24,7 +24,7 @@ body, html {
   padding: 0;
   max-width: 100%;
   background-color: #131313;
-  color: #fff;
+  color: #d39e00;;
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
@@ -52,6 +52,7 @@ a:hover {
 /* Navbar */
 
 .navbar-dark { /* Bootstrap Navbar Properties */
+  border-bottom: 1px solid #ffc107;
   padding-left: 10rem;
   padding-right: 5rem;
   font-family: "Poppins", sans-serif;
@@ -146,7 +147,7 @@ a:hover {
 
 .left-content { /* Content container from Home Left Container */
   position: relative;
-  top: 50%;
+  top: 63%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -172,7 +173,7 @@ a:hover {
   
     background-position: left;
     background-repeat: no-repeat;
-    background-size: 57%;
+    background-size: 54%;
     border-radius: 31rem;
 }
 
@@ -197,7 +198,7 @@ a:hover {
   }
 
   .main-name {
-    font-size: 5rem;
+    font-size: 3rem;
   }
 }
 /* End HOME Section */
